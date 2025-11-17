@@ -12,5 +12,3 @@ The research in the field of European Studies is as vast as the many disciplines
 + EU Governance: What role does the EU play in governing its member states? How does the EU affect regional policy-making? Is the EU an effective and legitimate policy-making instituion?
 + EU's Global Role: How does Europe interact with it's neighbours? What role does the EU have as a global actor? What shapes the EU's external relations with other parts of the globe? 
 + Challenges: Migration, Climate Change, Economic Challenges, Democratic Backsliding
-
-## 
