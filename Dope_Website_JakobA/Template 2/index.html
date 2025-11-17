@@ -23,7 +23,6 @@
       <h2 id="joke"></h2>
       <h2 id="setup"></h2>
       <h2 id="delivery"></h2>
-      <img src="fox" alt="Cute ahh Fox">
   <main> 
     <section>
         <h2> About Us</h2>
@@ -54,13 +53,7 @@
   getJoke();
   function makeBackgroundPink(){
     document.getElementById("content").style.background = "pink";
-  }
-  async function getFox(){
-    const response = await fetch('https://randomfox.ca/floof');
-    const data = await response.json();
-    document.getElementById("fox").innerHTML = data.image
-  }
-  getFox();
+  };
   </script>
 </html>
 <link rel="stylesheet" href="styles.css">

@@ -1,0 +1,80 @@
+h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;   /* space above/below */
+  color: darkblue;
+  text-transform: uppercase;
+  position: relative;        /* allows us to add underline effect */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: lightgray;
+  color: #303030;
+  margin: 0;
+  padding: 2rem 0;  /* spacing on top/bottom */
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;           /* center horizontally */
+  padding: 2rem;            /* space inside the container */
+  background-color: #ffffff; /* white content area */
+  border-radius: 10px;       /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow for depth */
+}
+
+.dropdown input[type="checkbox"] {
+  display: none;
+}
+
+.dropdown label h3 {
+  margin: 0;
+  background: none;
+  padding: 0;
+}
+
+.dropdown .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background: #f0f0f0;
+  padding: 0 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.dropdown input[type="checkbox"]:checked ~ .content {
+  max-height: 10000px; /* big enough to fit your text */
+  padding: 10px;
+}
+.dropdown {
+  margin-bottom: 1.5rem; /* adds space between dropdown boxes */
+}
+
+.dropdown label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #004080;   /* blue background */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+.dropdown label:hover {
+  background-color: #0059b3; /* lighter blue */
+  }
+
+  .dropdown label::after {
+  content: "▸";        /* right-pointing arrow */
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate the arrow when the box is open */
+.dropdown input[type="checkbox"]:checked + label::after {
+  transform: rotate(90deg); /* points down when open */
+}

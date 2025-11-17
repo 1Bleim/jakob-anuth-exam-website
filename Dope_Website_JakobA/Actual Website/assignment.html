@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Assignment 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="main-content">
+    <header>
+        <h1>Assignment 1: European Studies and Digital Technologies</h1>
+        <p>On this page you can find the follwing content:</p>
+        <li>What is European Studies: A short introduction to the study course, where it has its origins, and an overview of its core research themes.</li>
+        <li>Digital Technologies in European Studies: An overview of the use of digital technologies in academia and EU studies specifically</li>
+        <li>Emmerging Technologies: A glimpse into the future of digital technologies in European Studies and academia, including its potential, opportunities and risks.</li>
+        <p>Click on the sections to unfold and learn more!</p>
+    </header>
+    
+    <div class="dropdown">
+        <input type="checkbox" id="drop1" onclick="if(this.checked) loadMarkdown('what_is_european_studies.md', 'content')">
+        <label for="drop1"><h3>What is European Studies?</h3></label>
+        
+        <div class="content">
+        <div id="content"></div>
+    </div>
+
+    <div class="dropdown">
+        <input type="checkbox" id="drop2" onclick="if(this.checked) loadMarkdown('digital_transformation.md', 'content2')">
+        <label for="drop2"><h3>Digital Transformation in European Studies</h3></label>
+        
+        <div class="content">
+        <div id="content2"></div>
+    </div>
+
+     <div class="dropdown">
+        <input type="checkbox" id="drop3" onclick="if(this.checked) loadMarkdown('emmerging_technologies.md', 'content3')">
+        <label for="drop3"><h3>Emmerging Technologies</h3></label>
+        
+        <div class="content">
+        <div id="content3"></div>
+    </div>
+    <div class="dropdown">
+        <input type="checkbox" id="drop4" onclick="if(this.checked) loadMarkdown('Sources.md', 'content4')">
+        <label for="drop4"><h3>References</h3></label>
+        
+        <div class="content">
+        <div id="content4"></div>
+    </div>
+
+    <div class="container">
+        <p>Return to Landingpage:</p>
+
+        <div class="button-group">
+            <a href="landingpage.html" class="btn">Back to Landing Page</a>
+        </div>
+</div>
+    
+</body>
+<script>
+    async function loadMarkdown(filename, componentId) {
+    const response = await fetch(filename);
+    const text = await response.text();
+    document.getElementById(componentId).innerHTML = marked.parse(text);
+}
+</script>
+</html>
