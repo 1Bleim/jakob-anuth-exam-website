@@ -4,6 +4,8 @@
 European Studies is an **interdisciplinary** field of study, combining political science, sociology, history, economics, law, and cultural studies. Compared to similar study programmes like International Relations, European Studies **focuses on Europe** and the European Union, as its name suggests. It examines Europe from multiple angles, spanning from European ideas and visions to the present political and social reality [(Aarhus University, 2025)](https://masters.au.dk/europeanstudies) . It discusses important questions like European integration, identity, governance, and Europe’s global role that contribute to our understanding of how Europe shapes, and is shaped by, dynamics within and beyond its borders.
 ![European Studies Picture](images/eustudies.png)
 
+Image Source: https://eugovlab.com/where-to-study-european-studies-top-institutions-for-aspiring-eu-policy-professionals
+
 ## Origins
 European Studies emerged in the **mid-20th century** alongside the creation of the European Coal and Steel Community (ECSC), which was the first cornerstone in European cooperation after WWII. The ECSC project would also evolve over the next decades to become the European Union we know today. Initially, the academic field focused on the understanding of **European integration and EU institutions** but over time it expanded its scope, including important topics like Europeanization, nationalism, regionalism, and external relations.
 
