@@ -5,7 +5,7 @@ header: short introduction
 body: markdown files that are being loaded with JavaScript 
 button: used to go to the different pages (explained in another section)
 
-My HTML Structure is almost entirely based on the course material found on Brightspace. Ideas and implementation of basic HTML syntax was also found and taken from [w3schools.com](https://www.w3schools.com/html/default.asp). I first loaded the default structure using ! and TAB and added a line with 
+My HTML Structure is almost entirely based on the course material found on Brightspace. Ideas and implementation of basic HTML syntax were also found and taken from [w3schools.com](https://www.w3schools.com/html/default.asp). I first loaded the default structure using ! and TAB and added a line with 
 
 > < link rel="stylesheet" href="styles2.css"> 
 
